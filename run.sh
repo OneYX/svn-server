@@ -1,2 +1,2 @@
 #!/bin/bash
-exec sudo docker run -i -t raykuo/svn-server /startup.sh $1
+exec sudo docker run -i -t -p80:80 wax/svn-server /startup.sh $1
